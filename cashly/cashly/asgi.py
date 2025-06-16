@@ -1,5 +1,5 @@
 """
-ASGI config for cash project.
+ASGI config for cashly project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cash.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cashly.settings')
 
 application = get_asgi_application()
